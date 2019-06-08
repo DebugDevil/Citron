@@ -7,7 +7,7 @@
 <a href="https://dependabot.com"><img src="https://api.dependabot.com/badges/status?host=github&repo=justalemon/TokkiTools"></a>
 <a href="https://discord.gg/Cf6sspj"><img src="https://img.shields.io/badge/discord-join-7289DA.svg"></a>
 <br><br>
-Replace this text with the description of the mod.
+A set of scripts to make the development of Grand Theft Auto V mods easier.
 <br><br>
 <!-- <img src="https://raw.githubusercontent.com/justalemon/TokkiTools/master/preview.png"/> -->
 </div>

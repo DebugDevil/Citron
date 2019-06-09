@@ -3,7 +3,7 @@ using GTA.Native;
 using System;
 using System.Drawing;
 
-namespace TokkiTools
+namespace Citron
 {
     /// <summary>
     /// Functions that handle drawing of information on the screen.

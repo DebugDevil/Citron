@@ -1,6 +1,6 @@
 ﻿using GTA;
 
-namespace TokkiTools.Extensions
+namespace Citron.Extensions
 {
     /// <summary>
     /// Extension for the game ped.

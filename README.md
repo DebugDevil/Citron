@@ -1,15 +1,15 @@
 <div align="center">
-<!-- <img src="https://raw.githubusercontent.com/justalemon/TokkiTools/master/logo.png" width="750" /> -->
+<!-- <img src="https://raw.githubusercontent.com/justalemon/Citron/master/logo.png" width="750" /> -->
 <br><br>
-<a href="https://www.gta5-mods.com/scripts/tokkitools"><img src="https://img.shields.io/badge/5mods-download-20BA4E.svg"></a>
-<a href="https://ci.appveyor.com/project/justalemon/tokkitools"><img src="https://img.shields.io/appveyor/ci/justalemon/tokkitools.svg?label=appveyor"></a>
-<a href="https://www.codefactor.io/repository/github/justalemon/tokkitools"><img src="https://www.codefactor.io/repository/github/justalemon/tokkitools/badge"></a>
-<a href="https://dependabot.com"><img src="https://api.dependabot.com/badges/status?host=github&repo=justalemon/TokkiTools"></a>
+<a href="https://www.gta5-mods.com/scripts/citron"><img src="https://img.shields.io/badge/5mods-download-20BA4E.svg"></a>
+<a href="https://ci.appveyor.com/project/justalemon/citron"><img src="https://img.shields.io/appveyor/ci/justalemon/citron.svg?label=appveyor"></a>
+<a href="https://www.codefactor.io/repository/github/justalemon/citron"><img src="https://www.codefactor.io/repository/github/justalemon/citron/badge"></a>
+<a href="https://dependabot.com"><img src="https://api.dependabot.com/badges/status?host=github&repo=justalemon/Citron"></a>
 <a href="https://discord.gg/Cf6sspj"><img src="https://img.shields.io/badge/discord-join-7289DA.svg"></a>
 <br><br>
 A set of scripts to make the development of Grand Theft Auto V mods easier.
 <br><br>
-<!-- <img src="https://raw.githubusercontent.com/justalemon/TokkiTools/master/preview.png"/> -->
+<!-- <img src="https://raw.githubusercontent.com/justalemon/Citron/master/preview.png"/> -->
 </div>
 
 ## Prerequisites

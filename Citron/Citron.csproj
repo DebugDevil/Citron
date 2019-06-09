@@ -8,8 +8,8 @@
     <ProjectGuid>{1A892E6E-BE19-4F39-8934-2EED7016B85A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TokkiTools</RootNamespace>
-    <AssemblyName>TokkiTools</AssemblyName>
+    <RootNamespace>Citron</RootNamespace>
+    <AssemblyName>Citron</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

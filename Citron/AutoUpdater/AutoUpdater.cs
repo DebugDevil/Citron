@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace TokkiTools.AutoUpdater
+namespace Citron.AutoUpdater
 {
     /// <summary>
     /// Auto Updating system for mods created by me (Lemon).

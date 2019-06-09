@@ -1,7 +1,7 @@
 ﻿using GTA;
 using GTA.Math;
 
-namespace TokkiTools
+namespace Citron
 {
     /// <summary>
     /// Another ways to get the main player data.

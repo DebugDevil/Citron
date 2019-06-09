@@ -1,5 +1,7 @@
 ﻿using GTA;
 using GTA.Native;
+using System;
+using System.Drawing;
 
 namespace TokkiTools
 {
@@ -8,6 +10,26 @@ namespace TokkiTools
     /// </summary>
     public static class Screen
     {
+        /// <summary>
+        /// Checks if the specified portion of the screen has been clicked.
+        /// </summary>
+        /// <param name="position">The starting position.</param>
+        /// <param name="area"></param>
+        /// <returns></returns>
+        public static bool IsClicked(Point position, Size area)
+        {
+            // Get the relative x and y positions of the mouse
+            float MouseX = Function.Call<float>(Hash.GET_CONTROL_NORMAL, 0, (int)Control.CursorX);
+            float MouseY = Function.Call<float>(Hash.GET_CONTROL_NORMAL, 0, (int)Control.CursorY);
+            // Convert those relative numbers to literal and round them
+            int LiteralX = (int)Math.Round(MouseX * UI.WIDTH);
+            int LiteralY = (int)Math.Round(MouseY * UI.HEIGHT);
+
+            // Check if the mouse is inside of the area and return the result
+            return (MouseX >= position.X && LiteralX <= position.X + area.Width) &&
+                   (MouseY > position.Y && LiteralY < position.Y + area.Height);
+        }
+
         /// <summary>
         /// Checks if the specified cheat has been entered by the player.
         /// </summary>

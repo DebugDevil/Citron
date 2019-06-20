@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="AutoUpdater\AutoUpdater.cs" />
     <Compile Include="ColorConverter.cs" />
+    <Compile Include="Extensions\Color.cs" />
     <Compile Include="PlayerData.cs" />
     <Compile Include="Extensions\Ped.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

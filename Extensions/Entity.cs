@@ -15,14 +15,14 @@ namespace Citron.Extensions
             return Function.Call<int>(Hash.GET_ENTITY_HEALTH, GamePed);
         }
 
-        public static int SetMaxHealth(this Entity GamePed)
+        public static int SetMaxHealth(this Entity GamePed, int Value)
         {
-            return Function.Call<int>(Hash.SET_ENTITY_MAX_HEALTH, GamePed);
+            return Function.Call<int>(Hash.SET_ENTITY_MAX_HEALTH, GamePed, Value);
         }
 
-        public static int SetHealth(this Entity GamePed)
+        public static int SetHealth(this Entity GamePed, int Value)
         {
-            return Function.Call<int>(Hash.SET_ENTITY_HEALTH, GamePed);
+            return Function.Call<int>(Hash.SET_ENTITY_HEALTH, GamePed, Value);
         }
     }
 }
